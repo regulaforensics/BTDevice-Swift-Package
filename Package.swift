@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "BTDevice",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "BTDevice",
             targets: ["BTDevice"]),
     ],
     targets: [
-        .binaryTarget(name: "BTDevice", url: "https://pods.regulaforensics.com/BTDevice/6.8.318/BTDevice-6.8.318.zip", checksum: "d173f789d5dc408dc1d26b287bf5238b228ca060e3a8d9e81489a8f81296a198"),
+        .binaryTarget(name: "BTDevice", url: "https://pods.regulaforensics.com/BTDevice/9.6.614/BTDevice-9.6.614.zip", checksum: "7b7d96ef80d3be8feaf17ff67d41b8c4f585c4666c0411ba73865301b18b959d"),
     ]
 )
