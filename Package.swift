@@ -7,9 +7,9 @@ let package = Package(
     products: [
         .library(
             name: "BTDevice",
-            targets: ["BTDeviceStage"]),
+            targets: ["BTDeviceNightly"]),
     ],
     targets: [
-        .binaryTarget(name: "BTDeviceStage", url: "https://pods.regulaforensics.com/Stage/BTDeviceStage/9.9.714/BTDeviceStage-9.9.714.zip", checksum: "8509c15d9e85d4ae6eaf5cba8ae23ba738b32e807a13c51cc6ce3bc4a4e02890"),
+        .binaryTarget(name: "BTDeviceNightly", url: "https://pods.regulaforensics.com/Nightly/BTDeviceNightly/9.9.715/BTDeviceNightly-9.9.715.zip", checksum: "5ac45c9f982a66d4b8281351eca12a56a0f7be79cd8021b4db0ea60c4c9d140f"),
     ]
 )
