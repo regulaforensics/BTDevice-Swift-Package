@@ -1,15 +1,18 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
     name: "BTDevice",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "BTDevice",
             targets: ["BTDeviceStage"]),
     ],
     targets: [
-        .binaryTarget(name: "BTDeviceStage", url: "https://pods.regulaforensics.com/Stage/BTDeviceStage/9.8.743/BTDeviceStage-9.8.743.zip", checksum: "5977e6f5d01be8fc38c8df0d5808ef6b83fb8de530a0d0807073ba27412032a5"),
+        .binaryTarget(
+            name: "BTDeviceStage",
+            url: "https://pods.regulaforensics.com/Stage/BTDeviceStage/9.8.745/BTDeviceStage-9.8.745.zip",
+            checksum: "46e24aedc1c4fd221481c25121e1fcde1808779e83d4ac1c80b424e04a7dcd11"),
     ]
 )
