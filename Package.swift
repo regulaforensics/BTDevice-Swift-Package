@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BTDeviceNightly",
-            url: "https://pods.regulaforensics.com/Nightly/BTDeviceNightly/9.9.825/BTDeviceNightly-9.9.825.zip",
-            checksum: "7462755bf499eae73bfc11268173427fbbe5a995c4cca57dac76368ca0c75e3b"),
+            url: "https://pods.regulaforensics.com/Nightly/BTDeviceNightly/9.10.828/BTDeviceNightly-9.10.828.zip",
+            checksum: "3af9ac22595715b5f50051a3db87836e3d897e1b6b2906e206331a00ad7380bf"),
     ]
 )
